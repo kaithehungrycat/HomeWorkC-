@@ -26,6 +26,20 @@ namespace Exc1._6
             Gdyby Burek był człowiekiem, miałby 15 lat. 
              */
 
+            string dogName;
+            Console.WriteLine("Please provide dog's name: ");
+            dogName = Console.ReadLine();
+
+            int dogAGe;
+            Console.WriteLine("Please provide dog Age");
+            dogAGe = Convert.ToInt32(Console.ReadLine());
+
+            int dogYears = dogAGe * 5;
+            Console.WriteLine($"Your dog, {dogName}, is actually {dogYears} dog years old.");
+            Console.ReadLine();
+           
+
+
         }
     }
 }
